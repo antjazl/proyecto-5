@@ -1,0 +1,26 @@
+c:\users\richard\documents\visual studio 2012\Projects\Practica7.1\WebApplication1\bin\WebApplication1.dll
+c:\users\richard\documents\visual studio 2012\Projects\Practica7.1\WebApplication1\bin\WebApplication1.pdb
+c:\users\richard\documents\visual studio 2012\Projects\Practica7.1\WebApplication1\bin\AccesoDatos.dll
+c:\users\richard\documents\visual studio 2012\Projects\Practica7.1\WebApplication1\bin\Datos.dll
+c:\users\richard\documents\visual studio 2012\Projects\Practica7.1\WebApplication1\bin\EntityFramework.dll
+c:\users\richard\documents\visual studio 2012\Projects\Practica7.1\WebApplication1\bin\Logica.dll
+c:\users\richard\documents\visual studio 2012\Projects\Practica7.1\WebApplication1\bin\AccesoDatos.pdb
+c:\users\richard\documents\visual studio 2012\Projects\Practica7.1\WebApplication1\bin\Datos.pdb
+c:\users\richard\documents\visual studio 2012\Projects\Practica7.1\WebApplication1\bin\Logica.pdb
+c:\users\richard\documents\visual studio 2012\Projects\Practica7.1\WebApplication1\bin\EntityFramework.xml
+c:\users\richard\documents\visual studio 2012\Projects\Practica7.1\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
+c:\users\richard\documents\visual studio 2012\Projects\Practica7.1\WebApplication1\obj\Debug\WebApplication1.dll
+c:\users\richard\documents\visual studio 2012\Projects\Practica7.1\WebApplication1\obj\Debug\WebApplication1.pdb
+F:\Practica7\WebApplication1\bin\WebApplication1.dll
+F:\Practica7\WebApplication1\bin\WebApplication1.pdb
+F:\Practica7\WebApplication1\bin\AccesoDatos.dll
+F:\Practica7\WebApplication1\bin\Datos.dll
+F:\Practica7\WebApplication1\bin\EntityFramework.dll
+F:\Practica7\WebApplication1\bin\Logica.dll
+F:\Practica7\WebApplication1\bin\AccesoDatos.pdb
+F:\Practica7\WebApplication1\bin\Datos.pdb
+F:\Practica7\WebApplication1\bin\Logica.pdb
+F:\Practica7\WebApplication1\bin\EntityFramework.xml
+F:\Practica7\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
+F:\Practica7\WebApplication1\obj\Debug\WebApplication1.dll
+F:\Practica7\WebApplication1\obj\Debug\WebApplication1.pdb

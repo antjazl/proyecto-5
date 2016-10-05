@@ -1,0 +1,22 @@
+c:\users\richard\documents\visual studio 2012\Projects\Practica7.1\Logica\bin\Debug\Logica.dll
+c:\users\richard\documents\visual studio 2012\Projects\Practica7.1\Logica\bin\Debug\Logica.pdb
+c:\users\richard\documents\visual studio 2012\Projects\Practica7.1\Logica\obj\Debug\Logica.csprojResolveAssemblyReference.cache
+c:\users\richard\documents\visual studio 2012\Projects\Practica7.1\Logica\obj\Debug\Logica.dll
+c:\users\richard\documents\visual studio 2012\Projects\Practica7.1\Logica\obj\Debug\Logica.pdb
+c:\users\richard\documents\visual studio 2012\Projects\Practica7.1\Logica\bin\Debug\AccesoDatos.dll
+c:\users\richard\documents\visual studio 2012\Projects\Practica7.1\Logica\bin\Debug\Datos.dll
+c:\users\richard\documents\visual studio 2012\Projects\Practica7.1\Logica\bin\Debug\EntityFramework.dll
+c:\users\richard\documents\visual studio 2012\Projects\Practica7.1\Logica\bin\Debug\AccesoDatos.pdb
+c:\users\richard\documents\visual studio 2012\Projects\Practica7.1\Logica\bin\Debug\Datos.pdb
+c:\users\richard\documents\visual studio 2012\Projects\Practica7.1\Logica\bin\Debug\EntityFramework.xml
+F:\Practica7\Logica\bin\Debug\Logica.dll
+F:\Practica7\Logica\bin\Debug\Logica.pdb
+F:\Practica7\Logica\bin\Debug\AccesoDatos.dll
+F:\Practica7\Logica\bin\Debug\Datos.dll
+F:\Practica7\Logica\bin\Debug\EntityFramework.dll
+F:\Practica7\Logica\bin\Debug\AccesoDatos.pdb
+F:\Practica7\Logica\bin\Debug\Datos.pdb
+F:\Practica7\Logica\bin\Debug\EntityFramework.xml
+F:\Practica7\Logica\obj\Debug\Logica.csprojResolveAssemblyReference.cache
+F:\Practica7\Logica\obj\Debug\Logica.dll
+F:\Practica7\Logica\obj\Debug\Logica.pdb

@@ -1,0 +1,8 @@
+c:\users\richard\documents\visual studio 2012\Projects\Practica7.1\AccesoDatos\obj\Debug\AccesoDatos.csprojResolveAssemblyReference.cache
+c:\users\richard\documents\visual studio 2012\Projects\Practica7.1\AccesoDatos\bin\Debug\AccesoDatos.dll.config
+c:\users\richard\documents\visual studio 2012\Projects\Practica7.1\AccesoDatos\bin\Debug\AccesoDatos.dll
+c:\users\richard\documents\visual studio 2012\Projects\Practica7.1\AccesoDatos\bin\Debug\AccesoDatos.pdb
+c:\users\richard\documents\visual studio 2012\Projects\Practica7.1\AccesoDatos\bin\Debug\EntityFramework.dll
+c:\users\richard\documents\visual studio 2012\Projects\Practica7.1\AccesoDatos\bin\Debug\EntityFramework.xml
+c:\users\richard\documents\visual studio 2012\Projects\Practica7.1\AccesoDatos\obj\Debug\AccesoDatos.dll
+c:\users\richard\documents\visual studio 2012\Projects\Practica7.1\AccesoDatos\obj\Debug\AccesoDatos.pdb

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="seleccionarTaxa">
+        <s:complexType />
+      </s:element>
+      <s:element name="seleccionarTaxaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="seleccionarTaxaResult" type="tns:ArrayOfTaxa" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfTaxa">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="taxa" nillable="true" type="tns:taxa" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="taxa">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="IdTaxa" type="s:long" />
+          <s:element minOccurs="0" maxOccurs="1" name="Nombre" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="NombreCorto" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="EnEcuador" type="s:boolean" />
+          <s:element minOccurs="1" maxOccurs="1" name="Endemica" type="s:boolean" />
+          <s:element minOccurs="1" maxOccurs="1" name="IdTaxaPadre" nillable="true" type="s:long" />
+          <s:element minOccurs="1" maxOccurs="1" name="IdCatalogo" type="s:long" />
+          <s:element minOccurs="1" maxOccurs="1" name="PublicarEnWeb" type="s:boolean" />
+          <s:element minOccurs="1" maxOccurs="1" name="FechaModificacion" nillable="true" type="s:dateTime" />
+          <s:element minOccurs="0" maxOccurs="1" name="UsuarioModificacion" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="IdPublicacionReporte" nillable="true" type="s:long" />
+          <s:element minOccurs="1" maxOccurs="1" name="Ano" nillable="true" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="prueba" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="seleccionarTaxaPorId">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="IdTaxa" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="seleccionarTaxaPorIdResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="seleccionarTaxaPorIdResult" type="tns:ArrayOfTaxa" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SeleccionarTaxaPublicacion">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="taxaid" type="s:long" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SeleccionarTaxaPublicacionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SeleccionarTaxaPublicacionResult" type="tns:ArrayOfTaxaPublicacion" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfTaxaPublicacion">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="TaxaPublicacion" nillable="true" type="tns:TaxaPublicacion" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="TaxaPublicacion">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="IdTaxa" type="s:long" />
+          <s:element minOccurs="1" maxOccurs="1" name="IdPublicacion" type="s:long" />
+          <s:element minOccurs="1" maxOccurs="1" name="Principal" type="s:boolean" />
+          <s:element minOccurs="0" maxOccurs="1" name="Nombre" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="NombreCorto" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Titulo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TituloSecundario" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="Editor" type="s:boolean" />
+          <s:element minOccurs="0" maxOccurs="1" name="Editorial" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Volumen" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="IdPublicacionEnlace" type="s:long" />
+          <s:element minOccurs="0" maxOccurs="1" name="NombreArchivo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="EnlaceArchivo" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="Descarga" type="s:boolean" />
+        </s:sequence>
+      </s:complexType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="seleccionarTaxaSoapIn">
+    <wsdl:part name="parameters" element="tns:seleccionarTaxa" />
+  </wsdl:message>
+  <wsdl:message name="seleccionarTaxaSoapOut">
+    <wsdl:part name="parameters" element="tns:seleccionarTaxaResponse" />
+  </wsdl:message>
+  <wsdl:message name="seleccionarTaxaPorIdSoapIn">
+    <wsdl:part name="parameters" element="tns:seleccionarTaxaPorId" />
+  </wsdl:message>
+  <wsdl:message name="seleccionarTaxaPorIdSoapOut">
+    <wsdl:part name="parameters" element="tns:seleccionarTaxaPorIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="SeleccionarTaxaPublicacionSoapIn">
+    <wsdl:part name="parameters" element="tns:SeleccionarTaxaPublicacion" />
+  </wsdl:message>
+  <wsdl:message name="SeleccionarTaxaPublicacionSoapOut">
+    <wsdl:part name="parameters" element="tns:SeleccionarTaxaPublicacionResponse" />
+  </wsdl:message>
+  <wsdl:portType name="WebService1Soap">
+    <wsdl:operation name="seleccionarTaxa">
+      <wsdl:input message="tns:seleccionarTaxaSoapIn" />
+      <wsdl:output message="tns:seleccionarTaxaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="seleccionarTaxaPorId">
+      <wsdl:input message="tns:seleccionarTaxaPorIdSoapIn" />
+      <wsdl:output message="tns:seleccionarTaxaPorIdSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SeleccionarTaxaPublicacion">
+      <wsdl:input message="tns:SeleccionarTaxaPublicacionSoapIn" />
+      <wsdl:output message="tns:SeleccionarTaxaPublicacionSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WebService1Soap" type="tns:WebService1Soap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="seleccionarTaxa">
+      <soap:operation soapAction="http://tempuri.org/seleccionarTaxa" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="seleccionarTaxaPorId">
+      <soap:operation soapAction="http://tempuri.org/seleccionarTaxaPorId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SeleccionarTaxaPublicacion">
+      <soap:operation soapAction="http://tempuri.org/SeleccionarTaxaPublicacion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WebService1Soap12" type="tns:WebService1Soap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="seleccionarTaxa">
+      <soap12:operation soapAction="http://tempuri.org/seleccionarTaxa" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="seleccionarTaxaPorId">
+      <soap12:operation soapAction="http://tempuri.org/seleccionarTaxaPorId" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SeleccionarTaxaPublicacion">
+      <soap12:operation soapAction="http://tempuri.org/SeleccionarTaxaPublicacion" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WebService1">
+    <wsdl:port name="WebService1Soap" binding="tns:WebService1Soap">
+      <soap:address location="http://localhost:63575/WebService1.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WebService1Soap12" binding="tns:WebService1Soap12">
+      <soap12:address location="http://localhost:63575/WebService1.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
